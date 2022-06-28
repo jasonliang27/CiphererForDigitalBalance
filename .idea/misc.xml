@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/checkmark-circle-outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/checkmark-outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/checkmark_circle_outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/checkmark_outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/close-circle-outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/close_circle_outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable-v24/mail-outline.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable/check_24.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable/envelope_24.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/activity_about.xml" value="0.34692028985507245" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/activity_main.xml" value="0.34692028985507245" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/content_about.xml" value="0.36216779572694113" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/content_main.xml" value="0.34692028985507245" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/fragment_first.xml" value="0.34692028985507245" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/fragment_first2.xml" value="0.18489583333333334" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/layout/fragment_second.xml" value="0.3619791666666667" />
+        <entry key="..\:/Liangjunning/ApplicationDev/AndroidDev/AndroidStudioProjects/CiphererForDigitalBalance/app/src/main/res/menu/menu_main.xml" value="0.3619791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

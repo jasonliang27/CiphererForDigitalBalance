@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="316dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="234 × 56="
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSmsTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:text="短信解锁"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btNext"
+        app:layout_constraintEnd_toStartOf="@+id/btNext" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15/20" />
+
+        <Space
+            android:layout_width="6dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/checkmark_circle_outline" />
+
+        <TextView
+            android:id="@+id/tvRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <Space
+            android:layout_width="6dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/close_circle_outline" />
+
+        <TextView
+            android:id="@+id/tvWrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <android.widget.Chronometer
+            android:id="@+id/cmTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
